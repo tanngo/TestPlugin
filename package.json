@@ -1,6 +1,6 @@
 {
-  "name": "TestPlugin",
-  "version": "0.0.1",
+  "name": "testplugin",
+  "version": "1.0.2",
   "description": "Test plugin",
   "cordova": {
     "id": "cordova-plugin-test-plugin",
@@ -548,16 +548,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tanngo/TestPlugin.git"
+    "url": "git+https://github.com/tanngo/TestPlugin.git#commit-ish"
   },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android"
   ],
-  "author": "tanngo",
+  "author": "tanngo_1303@yahoo.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tanngo/TestPlugin/issues"
   },
-  "homepage": "https://github.com/tanngo/TestPlugin#readme"
+  "homepage": "https://github.com/tanngo/TestPlugin#readme",
+  "main": "TestPlugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
